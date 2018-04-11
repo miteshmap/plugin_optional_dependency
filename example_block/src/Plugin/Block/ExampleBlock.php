@@ -9,15 +9,17 @@ use Drupal\optional_dependency\OptionalDependency;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
+ * Create example block.
+ *
  * @Block(
  *   id = "example_block",
  *   admin_label = @Translation("Example block"),
  * )
  */
-
 class ExampleBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   /**
+   * The example block service.
    *
    * @var \Drupal\example_block\ExampleBlockService
    */

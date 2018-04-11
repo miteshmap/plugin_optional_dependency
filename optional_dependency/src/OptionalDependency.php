@@ -5,7 +5,7 @@ namespace Drupal\optional_dependency;
 use Drupal\Core\Path\CurrentPathStack;
 
 /**
- * Optional dependency
+ * Optional dependency.
  */
 class OptionalDependency {
 

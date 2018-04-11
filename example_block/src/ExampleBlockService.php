@@ -13,9 +13,9 @@ class ExampleBlockService {
   private $optionalDependency;
 
   /**
-   * Sets optional dependency
+   * Sets optional dependency.
    *
-   * @param \Drupal\optional_dependency\OptionalDependency
+   * @param \Drupal\optional_dependency\OptionalDependency $optionalDependency
    *   The optional dependency.
    *
    * @return $this
@@ -25,6 +25,9 @@ class ExampleBlockService {
     return $this;
   }
 
+  /**
+   * Get optional dependency object if available.
+   */
   public function getOptionalDependency() {
     if (isset($this->optionalDependency) && $this->optionalDependency instanceof OptionalDependency) {
       return $this->optionalDependency;
