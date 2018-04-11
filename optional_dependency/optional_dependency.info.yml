@@ -1,0 +1,4 @@
+name: Optional Dependency
+type: module
+description: Optional dependency module block.
+core: 8.x

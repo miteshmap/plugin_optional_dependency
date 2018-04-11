@@ -1,0 +1,5 @@
+services:
+  example_block.service:
+    class: Drupal\example_block\ExampleBlockService
+    calls:
+      - [setOptionalDependency, ['@?optional_dependency.demo']]

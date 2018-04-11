@@ -1,0 +1,4 @@
+name: Example block
+type: module
+description: Optional dependency module block.
+core: 8.x

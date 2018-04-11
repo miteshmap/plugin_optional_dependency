@@ -1,0 +1,4 @@
+services:
+  optional_dependency.demo:
+    class: Drupal\optional_dependency\OptionalDependency
+    arguments: ['@path.current']
